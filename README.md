@@ -1,5 +1,5 @@
-## E-commerce Customer Churn Analysis & Prediction
-# 📌 Project Overview
+# E-commerce Customer Churn Analysis & Prediction
+## 📌 Project Overview
 
 This project analyzes customer churn behavior for an e-commerce company and builds machine learning models to predict churned users.
 The objective is to help the business reduce churn by understanding user behavior, identifying churn risk factors, and designing targeted retention and promotional strategies.
@@ -12,7 +12,7 @@ The project combines:
 
 * Unsupervised Learning (Churned User Segmentation)
 
-# 🎯 Business Problem
+## 🎯 Business Problem
 
 Customer churn directly impacts revenue, customer lifetime value, and growth sustainability.
 The company wants to:
@@ -23,7 +23,7 @@ The company wants to:
 
 * Segment churned users to design personalized promotions
 
-# 🗂 Dataset Description
+## 🗂 Dataset Description
 
 The dataset (churn_predict.csv) contains customer-level behavioral, demographic, and transactional features.
 
@@ -59,7 +59,7 @@ NumberOfAddress – Number of saved addresses
 
 Complain – Complaint raised in the last month
 
-# 🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 The EDA focused on identifying behavioral patterns of churned users, including:
 
@@ -71,7 +71,7 @@ The EDA focused on identifying behavioral patterns of churned users, including:
 
 * Behavioral differences across payment methods and order categories
 
-# 📌 Key Insights
+### 📌 Key Insights
 
 * Customer dissatisfaction and complaints are strong churn indicators
 
@@ -79,7 +79,7 @@ The EDA focused on identifying behavioral patterns of churned users, including:
 
 * Engagement metrics (time spent, devices registered) differ significantly between churned and active users
 
-💡 Business Recommendations
+### 💡 Business Recommendations
 
 * Improve service recovery for customers who submit complaints
 
@@ -87,7 +87,7 @@ The EDA focused on identifying behavioral patterns of churned users, including:
 
 * Personalize promotions based on user behavior and preferences
 
-# 🤖 Supervised Learning: Churn Prediction
+## 🤖 Supervised Learning: Churn Prediction
 
 Built machine learning models to predict churned users based on customer behavior and attributes.
 
@@ -103,7 +103,7 @@ Goal
 
 Enable the business to proactively identify churn-risk users and intervene before churn occurs.
 
-# 🧠 Unsupervised Learning: Churned User Segmentation
+## 🧠 Unsupervised Learning: Churned User Segmentation
 
 To support targeted promotions, churned users (Churn = 1) were segmented using KMeans clustering.
 
